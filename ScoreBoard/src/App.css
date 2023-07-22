@@ -1,0 +1,83 @@
+
+
+body{
+  padding: 0;
+  font-size: 15px;
+  justify-content: center;
+  color: white;
+  background-color: rgb(27, 27, 27);
+}
+
+.conjunto{
+  display: flex;
+  
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  width: 218px;
+  border: 1px solid rgb(221, 217, 197);  
+  color: rgb(60, 150, 230);
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+#Numero {
+  font-size: 6rem; 
+  font-family: 'Black Ops One';
+  z-index: 1;
+}
+
+button {
+  background-color:transparent!important;
+  color: rgb(47, 97, 141);
+  width: 210px;
+  height: 120px;
+  z-index: 2;  
+  margin: -80px;
+  border: none;
+}
+
+
+
+#btnPos{
+  font-size: 2rem;
+  transform: translateY(85px);  
+
+}
+#btnNeg{
+  font-size: 2rem;
+  transform: translateY(-85px);  
+}
+#set{
+  margin-top: -20px;
+}
+
+
+
+.cont-time {  
+  background-color: rgba(0, 128, 0, 0);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  
+  font-size: 2.3rem;
+  width: 230px;
+  border: 1px solid rgba(255, 255, 255, 0.112);
+}
+
+.titular {
+  background-color: rgba(222, 184, 135, 0);
+  text-align: center;
+  margin-top:10px ;
+
+}
+#time{
+
+  text-align: center;
+  margin-top: -123px;
+}
+#set{
+  font-size: 1.5rem;
+}
