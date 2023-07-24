@@ -1,83 +1,98 @@
 
-
 body{
-  padding: 0;
-  font-size: 15px;
-  justify-content: center;
-  color: white;
+  color:white;
+}
+.conjunto{
+  align-items: center;
+  display: flex;  
+  border-radius: 5px;
+  z-index: 3;
   background-color: rgb(27, 27, 27);
 }
-
-.conjunto{
-  display: flex;
-  
-}
-
 .display {
+  
   display: flex;
   flex-direction: column;
-  width: 218px;
-  border: 1px solid rgb(221, 217, 197);  
+  width: 218px;   
   color: rgb(60, 150, 230);
   align-items: center;
   text-align: center;
-  margin: auto;
+  margin: auto;  
 }
-
+.display h1{
+  margin-bottom: -78px;
+}
 #Numero {
-  font-size: 6rem; 
-  font-family: 'Black Ops One';
+  font-size: 8rem; 
+  font-family: 'Bebas Neue';
+  font-weight: bolder;
   z-index: 1;
-}
 
+}
 button {
-  background-color:transparent!important;
-  color: rgb(47, 97, 141);
+  background-color: red !important;
+  color: rgba(47, 97, 141, 0.122);
   width: 210px;
   height: 120px;
   z-index: 2;  
   margin: -80px;
-  border: none;
+  border: none;    
 }
-
-
-
 #btnPos{
   font-size: 2rem;
-  transform: translateY(85px);  
-
+  transform: translateY(135px);  
 }
 #btnNeg{
   font-size: 2rem;
-  transform: translateY(-85px);  
+  transform: translateY(-145px);  
 }
 #set{
   margin-top: -20px;
 }
-
-
-
 .cont-time {  
-  background-color: rgba(0, 128, 0, 0);
+  color: rgba(255, 255, 255, 0.504);
   display: grid;
-  grid-template-rows: auto 1fr;
-  
+  grid-template-rows: auto 1fr;  
   font-size: 2.3rem;
   width: 230px;
-  border: 1px solid rgba(255, 255, 255, 0.112);
 }
-
 .titular {
-  background-color: rgba(222, 184, 135, 0);
+
   text-align: center;
   margin-top:10px ;
-
+  font-size: 3rem; 
+  font-family: 'Bebas Neue';
 }
 #time{
-
   text-align: center;
   margin-top: -123px;
 }
 #set{
   font-size: 1.5rem;
+  margin-top: -100px;
+}
+.cronometer{  
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.8rem; 
+  font-family: 'Bebas Neue';
+}
+.outside{
+  border-radius: 12px;
+  padding: 6px;
+  animation: cambiarAnimado 2.5s infinite;
+
+}
+@keyframes cambiarAnimado {
+  0% {
+    background-color: #3b2890a3;    
+  }
+  50% {
+    background-color: #373c57;
+  }
+  100% {
+    background-color: #c5cacf;  
+  }
 }

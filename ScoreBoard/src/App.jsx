@@ -1,23 +1,20 @@
 import { useState } from 'react'
 import TimePlayed from './Components/TimePlayed'
-
-import './App.css'
 import Display from './Components/Display'
-
-
-
-
-
+import Display2 from './Components/Display2'
+import Rotation from './Components/Rotation'
+import './App.css'
 
 function App() {
 
   return (
-    <div className='conjunto'>
-    <Display />
-    <TimePlayed />
-    <Display />
+    <div className='outside'>
+      <div className='conjunto'>
+      <Display2 />
+      <TimePlayed />
+      <Display2 />
+      </div>
     </div>
-
   )
 }
 
